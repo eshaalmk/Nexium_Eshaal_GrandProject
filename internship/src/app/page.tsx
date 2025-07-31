@@ -236,8 +236,9 @@ return (
           Logged in as <span className="font-semibold">{user?.email}</span>
         </p>
         <blockquote className="text-sm italic text-gray-600 mb-8">
-          "Every emotion is valid. Reflect, don't repress. 💜"
+         &quot;Every emotion is valid. Reflect, don&#39;t repress. 💜&quot;
         </blockquote>
+
 
         {/* Action Buttons */}
         <div className="flex justify-center flex-wrap gap-6">

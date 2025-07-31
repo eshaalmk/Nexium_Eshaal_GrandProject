@@ -53,7 +53,7 @@ export default function Home() {
           transition={{ delay: 0.6 }}
           className="italic text-sm text-gray-600 mb-8"
         >
-          "It's okay to not be okay. You're taking the first step. 🌟"
+          &quot;It&#39;s okay to not be okay. You&#39;re taking the first step.&quot;
         </motion.blockquote>
 
         {/* Form */}
