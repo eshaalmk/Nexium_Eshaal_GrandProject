@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { supabase } from 'C:\\Users\\eshaa\\OneDrive\\Documents\\nexium-app\\lib\\supabaseClient.js';
+import { supabase } from '../../../lib/supabaseClient';
 
 export default function Home() {
   const [email, setEmail] = useState('');

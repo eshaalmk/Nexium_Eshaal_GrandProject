@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { supabase } from 'C:\\Users\\eshaa\\OneDrive\\Documents\\nexium-app\\lib\\supabaseClient.js'; 
+import { supabase } from '../../../lib/supabaseClient'; 
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, Cell

@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/navigation';
-import { supabase } from 'C:\\Users\\eshaa\\OneDrive\\Documents\\nexium-app\\lib\\supabaseClient.js';
+import { supabase } from '../../lib/supabaseClient';
 import type { User } from '@supabase/supabase-js';
 import {
   PieChart,
